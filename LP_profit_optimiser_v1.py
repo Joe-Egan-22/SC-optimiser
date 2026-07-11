@@ -133,6 +133,15 @@ def result_function(results, number):
 
     return None
 
+def testing_function():
+    '''
+    Function used to test specific components of this code
+    
+    W.I.P
+    '''
+
+    return None
+
 def main():
     '''
     Main function for executing code

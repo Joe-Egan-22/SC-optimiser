@@ -94,12 +94,6 @@ def collection_func():
         except ValueError:
             print('Invalid input, require NUMERICAL')
     print('')
-    
-    # queries additional constraints (inequalities only for now)
-
-    
-
-
 
     # converts lists to numpy arrays for easier manipulation
     cost_array = np.array(cost)
@@ -131,14 +125,11 @@ def result_function(results, number):
     for i in range(number):
         print(f'The NUMBER of product {i} required is {optimal_values[i]} units.')
 
-    return None
-
-def testing_function():
-    '''
-    Function used to test specific components of this code
-    
-    W.I.P
-    '''
+    print('')
+    print('-------------------------------------------')
+    print('             CODE TERMINTATED              ')
+    print('-------------------------------------------')
+    print('')
 
     return None
 
